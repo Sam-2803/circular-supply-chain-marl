@@ -1,0 +1,30 @@
+{
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "horizon": 20,
+  "policy": "No-Op",
+  "row_count": 200,
+  "expected_row_count": 200,
+  "outputs": [
+    "noop_period_panel.csv",
+    "noop_order_panel.csv",
+    "candidate_normalizers.csv",
+    "diagnostic_metadata.json"
+  ],
+  "normalizer_policy": "candidate/provisional only; estimated once and not activated",
+  "limitations": [
+    "Cost per unit, WIP, schedule adherence, and budget-favorable status are unavailable.",
+    "Lead time is order-level and excludes censored orders.",
+    "Exact paper KPI definitions and ratio aggregation remain unresolved."
+  ]
+}

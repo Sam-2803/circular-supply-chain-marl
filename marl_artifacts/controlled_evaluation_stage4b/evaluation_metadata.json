@@ -1,0 +1,33 @@
+{
+  "episode_length": 20,
+  "seeds": [
+    100,
+    101,
+    102
+  ],
+  "policies": [
+    "no_op",
+    "random",
+    "heuristic",
+    "trained"
+  ],
+  "checkpoint_dir": "marl_artifacts\\training_100\\checkpoints",
+  "evaluation_mode": "inference-only; trained agents use explore=False",
+  "common_random_numbers": {
+    "demand": "pre-seeded environment stream",
+    "yield": "pre-seeded environment stream",
+    "transport": "day-indexed pre-seeded latent stream"
+  },
+  "metric_notes": {
+    "reward_sum": "sum of daily environment rewards",
+    "reward_mean": "mean of daily environment rewards",
+    "cost_per_delivered_unit": "proxy; not paper-defined cost per unit",
+    "wip": "unavailable; production-stage WIP is not tracked",
+    "average_lead_time": "completed orders only; censored orders counted separately"
+  },
+  "limitations": [
+    "Exploratory reward and action semantics remain unchanged.",
+    "This is not an exact paper reproduction.",
+    "Existing checkpoints are evaluated; no retraining occurs."
+  ]
+}

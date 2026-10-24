@@ -1,0 +1,12 @@
+metric,candidate_normalizer,status,aggregation_method,definition,units,valid_observation_count,normalizers_activated
+operating_cost,13791.011600000002,candidate/provisional,period_mean,mean of valid period costs,cost/period,200,False
+co2_emissions,3857.1533499999996,candidate/provisional,period_mean,mean of valid period emissions,emissions/period,200,False
+inventory,610.63465,candidate/provisional,period_mean,mean of period-end inventory,units,200,False
+material_waste,15.5645,candidate/provisional,period_mean,mean of period net waste,units/period,200,False
+backlog,1469.2152500000002,candidate/provisional,period_mean,mean of period-end backlog,units,200,False
+energy_per_unit,1.4846153846153847,candidate/provisional,ratio_of_totals,sum energy_used / sum production_input,energy/production unit,200,False
+service_level,0.2971186118640888,candidate/provisional,ratio_of_totals,sum on_time_delivered_units / sum demand_numerator,ratio,200,False
+otif,0.065,candidate/provisional,ratio_of_totals,sum otif_orders / sum new_orders,ratio,200,False
+average_lead_time,3.7267080745341614,candidate/provisional,pooled_order_mean,mean valid completed-order lead times,days,161,False
+cost_per_unit,,unavailable_or_invalid,unresolved,paper denominator unavailable,unresolved,0,False
+wip,,unavailable_or_invalid,unresolved,production WIP unavailable,unresolved,0,False

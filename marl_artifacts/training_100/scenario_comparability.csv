@@ -1,0 +1,5 @@
+policy,demand_equal_to_no_op,yield_equal_to_no_op,baseline_transport_equal_to_no_op
+trained,True,True,True
+no_op,True,True,True
+random,True,True,True
+heuristic,True,True,True

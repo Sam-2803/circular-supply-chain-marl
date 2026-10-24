@@ -1,0 +1,4 @@
+strategy,average_service_level,total_operating_cost,total_co2_emissions,ending_backlog,ending_inventory,total_reward,low_actions,normal_actions,high_actions
+Low production,0.7710516101390088,126817.0,23650.0,418,0,0.5933220278017419,20,0,0
+Fixed production,1.0,130725.5,25939.0,0,622,40.05549999999999,0,20,0
+Q-learning,1.0,125707.5,25523.0,0,414,45.4895,9,6,5

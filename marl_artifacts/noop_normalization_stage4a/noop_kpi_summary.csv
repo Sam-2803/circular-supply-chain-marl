@@ -1,0 +1,15 @@
+metric,status,definition,mean,std,minimum,maximum,sample_count,normalizer_status
+average_lead_time,available,unavailable: the environment does not track order-level delivery lead times,3.8270833333333334,0.5097061381053029,3.466666666666667,4.1875,2,candidate/provisional; not selected
+service_level,available,final cumulative on-time units divided by cumulative demand,0.23154999999999998,0.04772970773009194,0.1978,0.2653,2,candidate/provisional; not selected
+otif,available,final completed orders delivered fully by due date divided by total orders,0.025,0.03535533905932738,0.0,0.05,2,candidate/provisional; not selected
+operating_cost,available,sum of daily operating_cost values,277952.17000000004,5735.328960068491,273896.68,282007.66000000003,2,candidate/provisional; not selected
+cost_per_unit,unavailable,unavailable: the paper-defined unit denominator is not available,,,,,0,candidate/provisional; not selected
+cost_per_delivered_unit,available,proxy: total operating cost divided by total delivered units,33.56484375609842,0.8970618375216494,32.930525247643196,34.19916226455364,2,proxy/diagnostic only; not a paper KPI normalizer
+co2_emissions,available,sum of daily emissions values,77203.815,250.06831316661842,77026.99,77380.64,2,candidate/provisional; not selected
+energy_per_unit,available,sum energy_used divided by sum production_input,1.4846153846153847,0.0,1.4846153846153847,1.4846153846153847,2,candidate/provisional; not selected
+material_waste,available,sum of daily net_waste values,320.01,20.50609665440992,305.51,334.51000000000005,2,candidate/provisional; not selected
+average_inventory,available,mean of daily inventory values,600.0,0.0,600.0,600.0,2,candidate/provisional; not selected
+wip,unavailable,unavailable: WIP is not tracked by the environment,,,,,0,candidate/provisional; not selected
+backlog,available,mean of daily backlog values,1523.9224999999997,150.2396849054871,1417.6869999999997,1630.158,2,candidate/provisional; not selected
+completed_order_count,available,number of fully completed orders in the episode,15.5,0.7071067811865476,15.0,16.0,2,proxy/diagnostic only; not a paper KPI normalizer
+censored_order_count,available,number of orders incomplete at the episode boundary,4.5,0.7071067811865476,4.0,5.0,2,proxy/diagnostic only; not a paper KPI normalizer

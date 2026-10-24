@@ -1,0 +1,21 @@
+{
+  "seeds": [
+    100,
+    101,
+    102
+  ],
+  "episode_length": 20,
+  "policies": [
+    "no_op",
+    "random",
+    "heuristic",
+    "trained"
+  ],
+  "checkpoint_dir": "marl_artifacts\\training_100\\checkpoints",
+  "mode": "read-only replay; no training or weight updates",
+  "limitations": [
+    "Action/outcome summaries are associations, not causal effects.",
+    "Reward weights and formula remain provisional.",
+    "WIP remains unavailable."
+  ]
+}

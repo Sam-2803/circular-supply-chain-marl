@@ -1,0 +1,12 @@
+metric,status,definition,mean,std,minimum,maximum,sample_count,normalizer_status
+average_lead_time,unavailable,unavailable: the environment does not track order-level delivery lead times,,,,,0,candidate/provisional; not selected
+service_level,available,final cumulative on-time units divided by cumulative demand,0.3523,0.21185077295115068,0.1978,0.5938,3,candidate/provisional; not selected
+otif,available,final completed orders delivered fully by due date divided by total orders,0.15,0.21794494717703367,0.0,0.4,3,candidate/provisional; not selected
+operating_cost,available,sum of daily operating_cost values,273150.8033333334,9252.370763400782,263548.07,282007.66000000003,3,candidate/provisional; not selected
+cost_per_unit,unavailable,unavailable: the paper-defined unit denominator is not available,,,,,0,candidate/provisional; not selected
+co2_emissions,available,sum of daily emissions values,77060.15000000001,305.2637831450069,76772.81999999999,77380.64,3,candidate/provisional; not selected
+energy_per_unit,available,sum energy_used divided by sum production_input,1.4846153846153847,0.0,1.4846153846153847,1.4846153846153847,3,candidate/provisional; not selected
+material_waste,available,sum of daily net_waste values,316.15000000000003,15.967116208007035,305.51,334.51000000000005,3,candidate/provisional; not selected
+average_inventory,available,mean of daily inventory values,622.1513333333334,38.367234788727366,600.0,666.454,3,candidate/provisional; not selected
+wip,unavailable,unavailable: WIP is not tracked by the environment,,,,,0,candidate/provisional; not selected
+backlog,available,mean of daily backlog values,1401.8906666666664,236.56137998484306,1157.827,1630.158,3,candidate/provisional; not selected

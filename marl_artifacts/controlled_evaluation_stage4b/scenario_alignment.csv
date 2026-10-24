@@ -1,0 +1,13 @@
+policy,seed,demand_equal_to_no_op,yield_equal_to_no_op,transport_equal_to_no_op
+no_op,100,True,True,True
+no_op,101,True,True,True
+no_op,102,True,True,True
+random,100,True,True,True
+random,101,True,True,True
+random,102,True,True,True
+heuristic,100,True,True,True
+heuristic,101,True,True,True
+heuristic,102,True,True,True
+trained,100,True,True,True
+trained,101,True,True,True
+trained,102,True,True,True

@@ -1,0 +1,2 @@
+episode,total_reward,mean_loss,loss_planning,loss_inventory,loss_logistics,loss_expediting,loss_recycling,weight_norm_planning,weight_norm_inventory,weight_norm_logistics,weight_norm_expediting,weight_norm_recycling,epsilon_planning,epsilon_inventory,epsilon_logistics,epsilon_expediting,epsilon_recycling
+1,-14.839,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.995,0.995,0.995,0.995,0.995

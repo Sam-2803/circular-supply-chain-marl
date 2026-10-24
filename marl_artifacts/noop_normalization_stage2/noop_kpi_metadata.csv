@@ -1,0 +1,4 @@
+key,value
+episode_length,20
+seeds,"100,101,102"
+normalizer_policy,descriptive only; no automatic selection

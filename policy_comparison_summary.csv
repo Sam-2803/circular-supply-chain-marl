@@ -1,0 +1,6 @@
+policy,total_cost,total_emissions,total_waste,final_backlog,final_service_level,final_otif,average_reward
+Higher production,890799.511,237409.949,1011.449,1245.154,0.486,0.335,-6.299
+Higher production + expediting,938372.65,237463.17,1011.449,865.17,0.833,0.787,-6.103
+Higher production + faster dispatch,889156.561,237463.17,1011.449,1237.209,0.497,0.46,-6.288
+Higher production + more recycling,888561.859,237362.023,674.302,1237.209,0.497,0.46,-5.827
+Neutral baseline,844300.841,233299.081,919.503,1628.992,0.257,0.07,-5.89
